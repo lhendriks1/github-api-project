@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<head>
+  <title>Learn GitHub</title>
+
+  <style>
+    * {
+      font-family: roboto;
+      font-size: 18px;
+    }
+
+    body {
+      margin: 40px;
+    }
+
+    label {
+      display: block;
+      padding-bottom: 20px;
+    }
+
+    input {
+      padding: 5px;
+    }
+
+    button {
+      background-color: lightblue;
+      padding: 4px;
+    }
+
+    button:hover {
+      cursor: pointer;
+    }
+
+    li {
+      margin-bottom: 20px;
+    }
+
+
+  </style>
+</head>
+<body>
+<form>
+  <label for:"userName-search">Search for a GitHub user handle:</label>
+  <input type="text" id="userName-search" placeholder="e.g., lhendriks1"></input>
+  <button type="submit">Search</button>
+  </form>
+  <hr>
+  <section>
+    <p class="results-desc"></p>
+    <ul class="results">
+      </ul>
+  </section>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
